@@ -51,6 +51,15 @@ const header = document.querySelector('header');
         container.querySelector('.stat').append(span);
         }
 
+        let types = curr.position.split(' ');
+
+        for (let i = 0; i < types.length - 1; i++) {
+            const btn = document.createElement('button');
+            btn.dataset.type = types[i];
+            btn.textContent = types[i];
+            container.querySelector('.tags').appendChild(btn);
+        }
+
         for (l of curr.languages) {
             const btn = document.createElement('button');
             btn.dataset.type = l;
