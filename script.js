@@ -53,12 +53,15 @@ const header = document.querySelector('header');
 
         let types = curr.position.split(' ');
 
-        for (let i = 0; i < types.length - 1; i++) {
-            const btn = document.createElement('button');
-            btn.dataset.type = types[i];
-            btn.textContent = types[i];
-            container.querySelector('.tags').appendChild(btn);
-        }
+        const btn1 = document.createElement('button');
+        btn1.dataset.type = curr.role;
+        btn1.textContent = curr.role;
+        container.querySelector('.tags').appendChild(btn1);
+
+        const btn2 = document.createElement('button');
+        btn2.dataset.type = curr.level;
+        btn2.textContent = curr.level;
+        container.querySelector('.tags').appendChild(btn2);
 
         for (l of curr.languages) {
             const btn = document.createElement('button');
