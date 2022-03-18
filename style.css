@@ -43,7 +43,7 @@ header {
     bottom: 50px;
     border-radius: 5px;
     box-shadow: var(--shadow);
-    max-width: 700px;
+    max-width: 1000px;
     display: none;
     justify-content: space-between;
     gap: 1em;
