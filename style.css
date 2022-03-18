@@ -113,18 +113,20 @@ main {
 }
 
 .container.remove {
-    animation: remove .25s ease forwards;
+    animation: remove .5s ease-in-out forwards;
 }
 
 @keyframes remove {
     0% {
         position: relative;
         opacity: 1;
+        transform: translateX(0);
     }
 
     90% {
         position: relative;
         opacity: 0;
+        transform: translateX(-100%);
     }
 
     100% {
