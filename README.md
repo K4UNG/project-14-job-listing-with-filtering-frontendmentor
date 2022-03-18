@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/K4UNG/project-14-job-listing-with-filtering)
+- Live Site URL: [Add live site URL here](https://k4ung14.netlify.app)
 
 ## My process
 
@@ -43,4 +43,4 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+This challenge seemed like a great way to practice my data fetching skills so I did it. As always I learned a lot about JavaScript arrays and fetching. This is also my first time adding most of my HTML dynamically through JavaScript and it was awesome.
