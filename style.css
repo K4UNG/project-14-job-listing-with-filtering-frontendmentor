@@ -88,14 +88,16 @@ header {
 }
 
 .clear {
-    color: var(--dark-cyan);
+    color: var(--dark-gray-cyan);
     background: none;
     border: none;
     font-weight: 700;
+    font-size: 1rem;
     cursor: pointer;
 }
 
 .clear:hover {
+    color: var(--dark-cyan);
     text-decoration: underline;
 }
 
@@ -161,21 +163,22 @@ main {
 
 .stat span {
     margin: 0 5px;
-    padding: .5em;
+    padding: .5em .8em;
     text-transform: uppercase;
     color: white;
     font-weight: 700;
-    border-radius: 20px;
-    font-size: .7rem;
+    border-radius: 15px;
+    font-size: .5rem;
     display: inline-block;
+    line-height: 2;
 }
 
 .feature {
-    background: var(--dark-cyan);
+    background: var(--very-dark-cyan);
 }
 
 .new {
-    background: var(--very-dark-cyan);
+    background: var(--dark-cyan);
 }
 
 .container a {
